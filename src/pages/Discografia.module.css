@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'SF Pro';
+  src: url('../fonts/SF-Pro.ttf') format('truetype');
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  font-family: 'SF Pro';
+}
+.hero {
+  background-image: url('../src/assets/images/hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.discografia {
+  color: #fff;
+  width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
+.discografia .panel {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  color: #3f3f3f;
+  font-size: 32px;
+  padding: 32px 0;
+}
+
+.spotify {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.spotify > h2 {
+  font-size: 64px;
+  font-stretch: expanded;
+  font-weight: 500;
+}
+
+.spotify .cards {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.cards .card {
+  width: 400px;
+  padding: 22px 12px;
+  border-radius: 8px;
+  background: linear-gradient(180deg, #000 0%, #242020 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  text-align: center;
+}
+.card .fotoMusic {
+  width: 100%;
+  height: 329px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.card .descMusic {
+  color: #fff;
+  font-stretch: expanded;
+}
+
+.descMusic h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.player {
+  background: #3d2a99;
+  padding: 18px 20px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 100px;
+  width: 100%;
+}
+
+.player p {
+  color: #fff;
+}
+
+.player .bar {
+  background: #fff;
+  width: 103px;
+  height: 4px;
+  border-radius: 2px;
+}

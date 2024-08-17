@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'SF Pro';
+  src: url('../fonts/SF-Pro.ttf') format('truetype');
+}
+
+.bg {
+  background-image: url('../src/assets/images/bgContato.png');
+}
+
+.content {
+  font-family: 'SF Pro';
+  font-stretch: expanded;
+  color: #fff;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 120px 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.content .colOne {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.colOne h2 {
+  width: 350px;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.colOne p {
+  width: 500px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.colTwo {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  width: 554px;
+}
+
+.colTwo .talk {
+  display: flex;
+  flex-direction: column;
+  gap: 58px;
+}
+
+.talk h2 {
+  font-size: 24px;
+  font-weight: 300;
+}
+.talk p {
+  width: 500px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.contato .row {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.row .info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.info .title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.title h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.info p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.rowTwo {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.icons {
+  display: flex;
+  gap: 22px;
+}
